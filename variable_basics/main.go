@@ -28,4 +28,7 @@ func main() {
 	i, j = 108, 666
 	i, j = j, i
 	fmt.Println("i=", i, "j=", j)
+
+    name1 := "Giuseppe"
+    _ = name1
 }
