@@ -32,3 +32,4 @@ func main() {
     name1 := "Giuseppe"
     _ = name1
 }
+
