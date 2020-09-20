@@ -15,10 +15,10 @@ var val float64
 var err error
 var done bool
 
-var maxValue = 666 // OK - camelCase
+var maxValue = 666  // OK - camelCase
 var max_value = 666 // NOK - snake_case
 
-func main () {
-	writeToDB = true // OK - acronym in all caps
+func main() {
+	writeToDB = true  // OK - acronym in all caps
 	writeToDb = false // NOK
 }

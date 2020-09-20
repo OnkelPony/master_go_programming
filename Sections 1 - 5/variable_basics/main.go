@@ -29,7 +29,6 @@ func main() {
 	i, j = j, i
 	fmt.Println("i=", i, "j=", j)
 
-    name1 := "Giuseppe"
-    _ = name1
+	name1 := "Giuseppe"
+	_ = name1
 }
-
