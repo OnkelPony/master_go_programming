@@ -10,7 +10,7 @@ func main() {
 	result := strings.Contains("Aletta is anal queen!", "anal")
 	p(result)
 
-	result = strings.ContainsAny("aůoerifja", "sy")
+	result = strings.ContainsAny("aůoerifjaq", "sy")
 	p(result)
 
 	result = strings.ContainsRune("Heather is oral queen, tečka!", 'č')
