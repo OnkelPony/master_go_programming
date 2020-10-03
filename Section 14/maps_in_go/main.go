@@ -46,8 +46,8 @@ func main() {
 
 	delete(balances, "USD")
 
-	a := map[string]string{"A": "X"}
-	b := map[string]string{"B": "X"}
+	a := map[string]string{"A": "666", "C": "Z", "B": "Y"}
+	b := map[string]string{"A": "666", "B": "Y", "C": "Z"}
 
 	s1 := fmt.Sprintf("%s", a)
 	s2 := fmt.Sprintf("%s", b)
