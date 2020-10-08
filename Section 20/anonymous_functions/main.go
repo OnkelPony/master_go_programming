@@ -11,7 +11,7 @@ func increment(x int) func() int {
 
 func main() {
 	func(msg string) {
-		fmt.Println("I'm an anonymous function!", msg)
+		fmt.Println("I'm an anonymous function.", msg)
 	}("vole")
 
 	a := increment(108)
