@@ -11,8 +11,8 @@ func sayHello(n string, w *sync.WaitGroup) {
 }
 
 func main() {
-	var wg = sync.WaitGroup{}
+	var wg sync.WaitGroup
 	wg.Add(1)
-	go sayHello("Mr. Wick", &wg)
+	go sayHello("Mr. Wicks", &wg)
 	wg.Wait()
 }
